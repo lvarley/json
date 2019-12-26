@@ -17,7 +17,7 @@
     ],
     "annotations": [
       {
-        "text": "text shown in body"
+        "text": "text shown in body",
         "title": "Annotation Title",
         "isRegion": true,
         "time": "1577353109578",
