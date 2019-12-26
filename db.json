@@ -1,20 +1,27 @@
 {
-    "search": [
-        [{"id": "blah1","type":"string","text":"City"}],
-        [{"id": "blah2","type":"string","text":"Country"}]
-    ],
-    "query": [
-        [{"id": "blah1","type":"string","text":"City"}],
-        [{"id": "blah2","type":"string","text":"Country"}]
-    ],
+    "search": ["upper_25","upper_50","upper_75","upper_90","upper_95"],
+    "query": {
+      "columns":[
+        {"text":"Time","type":"time"},
+        {"text":"Country","type":"string"},
+        {"text":"Number","type":"number"}
+      ],
+      "rows":[
+        [1234567,"SE",123],
+        [1234567,"DE",231],
+        [1234567,"US",321]
+      ],
+      "type":"table"
+    },
     "tag-keys": [
-        [{"id": "blah1","type":"string","text":"City"}],
-        [{"id": "blah2","type":"string","text":"Country"}]
+        {"type":"string","text":"City"},
+        {"type":"string","text":"Country"}
     ],
     "tag-values": [
-        [{"id": "blah1","type":"string","text":"City"}],
-        [{"id": "blah2","type":"string","text":"Country"}]
-    ],
+    {"text": "Eins!"},
+    {"text": "Zwei"},
+    {"text": "Drei!"}
+],
     "annotations": [
       {
         "text": "text shown in body",
