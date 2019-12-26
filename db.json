@@ -1,15 +1,21 @@
 {
     "search": [
-        {"name": "Apple"},
-        {"name": "Orange"},
-        {"name": "Pear"},
-        {"name": "Banana"}
+        {"id": "Apple"},
+        {"id": "Orange"},
+        {"id": "Pear"},
+        {"id": "Banana"}
     ],
     "query": [
-        {"name": "Apple"},
-        {"name": "Orange"},
-        {"name": "Pear"},
-        {"name": "Banana"}
+        {"id": "Apple"},
+        {"id": "Orange"},
+        {"id": "Pear"},
+        {"id": "Banana"}
+    ],
+    "tag-keys": [
+        {"id": "Apple"},
+        {"id": "Orange"},
+        {"id": "Pear"},
+        {"id": "Banana"}
     ],
     "annotations": {
       "name": "blah"
