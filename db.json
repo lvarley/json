@@ -1,19 +1,19 @@
 {
     "search": [
-        {"type":"string","text":"City"},
-        {"type":"string","text":"Country"}
+        {"id": "blah1","type":"string","text":"City"},
+        {"id": "blah2","type":"string","text":"Country"}
     ],
     "query": [
-        {"type":"string","text":"City"},
-        {"type":"string","text":"Country"}
+        {"id": "blah1","type":"string","text":"City"},
+        {"id": "blah2","type":"string","text":"Country"}
     ],
     "tag-keys": [
-        {"type":"string","text":"City"},
-        {"type":"string","text":"Country"}
+        {"id": "blah1","type":"string","text":"City"},
+        {"id": "blah2","type":"string","text":"Country"}
     ],
     "tag-values": [
-        {"type":"string","text":"City"},
-        {"type":"string","text":"Country"}
+        {"id": "blah1","type":"string","text":"City"},
+        {"id": "blah2","type":"string","text":"Country"}
     ],
     "annotations": [
       {
