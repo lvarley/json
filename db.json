@@ -1,0 +1,17 @@
+{
+    "search": [
+        {"name": "Apple"},
+        {"name": "Orange"},
+        {"name": "Pear"},
+        {"name": "Banana"}
+    ],
+    "query": [
+        {"name": "Apple"},
+        {"name": "Orange"},
+        {"name": "Pear"},
+        {"name": "Banana"}
+    ],
+    "annotations": {
+      "name": "blah"
+    }
+  }
