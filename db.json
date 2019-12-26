@@ -1,23 +1,28 @@
 {
     "search": [
-        {"id": "Apple"},
-        {"id": "Orange"},
-        {"id": "Pear"},
-        {"id": "Banana"}
+        {"type":"string","text":"City"},
+        {"type":"string","text":"Country"}
     ],
     "query": [
-        {"id": "Apple"},
-        {"id": "Orange"},
-        {"id": "Pear"},
-        {"id": "Banana"}
+        {"type":"string","text":"City"},
+        {"type":"string","text":"Country"}
     ],
     "tag-keys": [
-        {"id": "Apple"},
-        {"id": "Orange"},
-        {"id": "Pear"},
-        {"id": "Banana"}
+        {"type":"string","text":"City"},
+        {"type":"string","text":"Country"}
     ],
-    "annotations": {
-      "name": "blah"
-    }
+    "tag-values": [
+        {"type":"string","text":"City"},
+        {"type":"string","text":"Country"}
+    ],
+    "annotations": [
+      {
+        "text": "text shown in body"
+        "title": "Annotation Title",
+        "isRegion": true,
+        "time": "1577353109578",
+        "timeEnd": "1577353122171",
+        "tags": ["tag1"]
+      }
+    ]
   }
